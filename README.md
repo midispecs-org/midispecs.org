@@ -1,2 +1,0 @@
-# midispecs.org
-Begin app

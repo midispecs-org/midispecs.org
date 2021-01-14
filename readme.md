@@ -6,5 +6,6 @@ This is the start of a 2web site for MIDISpecs.org. Basically:
 * Rock on.
 
 ![](public/img/keytars.jpg)
+
 _📷 from [The Keytar Kids](https://www.facebook.com/KeytarKids/)_
 

@@ -7,29 +7,26 @@ exports.handler = async function Index () {
     /**
      * Basic bio
      */
-    fullname: 'Your Name', // ←  Start by adding your name!
-    title: 'My personal site!',
-    occupation: 'Artist & Photographer',
-    location: 'West Glacier, MT',
-    bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.',
+    fullname: 'MIDISpecs.org', // ←  Start by adding your name!
+    title: 'MIDISpecs.org',
+    occupation: 'Open Data for Music Hardware',
+    bio: '<a href="https://www.midispecs.org/">MIDISpecs.org</a> is a project that aims to collect and, tabulate and provide tools for using MIDI specifications fore the long tail of MIDI 1.0 hardware.',
 
     /**
      * Contact / social
      * - Comment out any item below to remove it from your page
      */
-    email: 'your@email.com',
-    twitter: 'yourTwitter',
-    linkedin: 'your-linkedin-name',
-    instagram: 'yourInsta',
-    facebook: 'your-facebook-name',
+    email: 'midispecs@techno.email',
+    twitter: 'midispecs',
+    github: 'https://github.com/midispecs-org/midispecs.org',
 
     /**
      * Layout
      */
-    photographer: 'Ivana Cajina',
+    photographer: 'Caught In Joy',
     service: 'Unsplash',
-    credit: 'https://unsplash.com/@von_co',
-    image: arc.static('background.jpg', {stagePath: false})
+    credit: 'https://unsplash.com/@caught_in_joy',
+    image: arc.static('background.jpg')
     // or link to an external image URL such as ↓
     // image: 'https://images.unsplash.com/photo-1506535772317-9fdb71c959c6'
   })

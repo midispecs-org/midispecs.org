@@ -1,7 +1,9 @@
 const Styles = require('./styles')
-const Symbols = require('./symbols')
+const Symbols = require('./symbols').symbols
+const Github = require('./symbols').github
 const Splash = require('./splash')
 const Content = require('./content')
+
 module.exports = function Home (props) {
   props = props || {}
   let title = props.title || 'Personal Website'
@@ -27,9 +29,10 @@ module.exports = function Home (props) {
   "
 >
  ${Symbols}
+ ${Github}
  ${Splash(props)}
  ${Content(props)}
 </body>
 </html>
-  `
+`
 }

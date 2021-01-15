@@ -13,9 +13,7 @@ module.exports = function Content (props) {
   let bio = props.bio || ''
   let email = props.email || ''
   let twitter = props.twitter || ''
-  let linkedin = props.linkedin || ''
-  let instagram = props.instagram || ''
-  let facebook = props.facebook || ''
+  let github = props.github || ''
 
   return `
 <section
@@ -79,9 +77,7 @@ module.exports = function Content (props) {
         })}
         ${SocialMedia({
           twitter,
-          linkedin,
-          instagram,
-          facebook
+          github
         })}
       </div>
     </div>

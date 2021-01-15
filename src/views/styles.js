@@ -201,6 +201,9 @@ body {
 .fill-hover-058AEA:hover {
   fill: #058AEA;
 }
+.fill-hover-010101:hover {
+  fill: #010101;
+}
 .opacity-64 {
   opacity: 0.64;
 }

@@ -5,7 +5,9 @@ begin-app
 get /
 
 @static
-# fingerprint true
+fingerprint true
+folder public
+
 
 @tables
 data
